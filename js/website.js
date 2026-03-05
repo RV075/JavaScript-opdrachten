@@ -20,3 +20,21 @@ document.querySelector('#search_form').addEventListener('submit', function() {
 document.querySelector('#box2').innerText = "Dit is nu de tekst in Box Twee."
 
 document.querySelector('#box2').innerHTML = "<h1>Dit is nu</h1><p>de tekst in Box Twee.</p>";
+
+// opdr 3.2
+    let gebruiker = {
+        "naam": "Tim",
+        "leeftijd": 70,
+        "hobbys":[
+            "Koffiedrinken",
+            "Tekenen",
+            "Programmeren"
+        ],
+        "haalt_graag_koffie": false
+    };
+
+    console.log(gebruiker.naam);//Geeftterug:"Tim"
+    console.log(gebruiker.leeftijd);//Geeftterug:"70"
+    gebruiker.hobbys.forEach(function (hobby){
+        console.log(hobby); //Elkekeerindeloopdevolgendehobby
+    })

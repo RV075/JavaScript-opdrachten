@@ -1,15 +1,4 @@
 {
-  "naam": "Tim",
-  "leeftijd": 70,
-  "hobbys": [
-    "Koffie drinken",
-    "Tekenen",
-    "Programmeren"
-  ],
-  "haalt_graag_koffie": false
-}
-
-{
   "merk": "Subaru",
   "bouwjaar": 1967,
   "eigenaren": [
